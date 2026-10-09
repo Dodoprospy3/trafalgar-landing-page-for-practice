@@ -31,7 +31,7 @@
             <p class="header-nav-buttons">Home</p>
             <p class="header-nav-buttons">Find A Doctor</p>
             <p class="header-nav-buttons">Apps</p>
-            <p class="header-nav-buttons">IDK</p>
+            <p class="header-nav-buttons">Testimonials</p>
             <p class="header-nav-buttons">About Us</p>
         </div>
     </header>
@@ -230,6 +230,7 @@
                 </div>
         </div>
 
+        <!--
         <div class="changing-card-stuff"> 
             <div> 
                 <div class="left-switch-button"> <img src="Assets/"> </div>
@@ -239,10 +240,108 @@
                 <div class="right-switch-button"> <img src="Assets/"> </div>
             </div>
         </div>
+        -->
+
+
+
+    <section class="services">
+        <h3 class="our-services">Check out our latest article</h3>
+        <div class="black-rectangle">───</div>
+        <img class="dots-in-services-grid" src="Assets/dots.png">
+
+        <div id="toggle-services-cards" class="services-cards-grid-conatainer">
+            <div class="service-card latest-articles-cards">
+                <img class="article-image" src="Assets/Mask Group.png">
+
+                <div class="stuff-not-image">
+                    <h3 class="service-title stuff-not-image">
+                        Disease detection, check 
+                        up in the laboratory
+                    </h3>
+                    <p class="p-not-image service-card-description">
+                        In this case, the role of the health laboratory is very important to do
+                        a disease detection...
+                    </p>
+                </div>
+           </div>
+
+            <div class="service-card latest-articles-cards">
+                <img class="article-image microscope" src="Assets/image 2.png">
+                <div class="stuff-not-image">
+                    <h3 class="service-title">
+                        Herbal medicines that are 
+                        safe for consumption
+                    </h3>
+                    <p class="p-not-image service-card-description">
+                        Herbal medicine is very 
+                        widely used at this time 
+                        because of its very good 
+                        for your health...
+                    </p>
+                </div>
+            </div>
+
+            <div class="service-card latest-articles-cards">
+                <div class="stuff-not-image">
+                    <img class="article-image sauna" src="Assets/image 3.png">
+                    <h3 class="service-title">
+                        Natural care for healthy 
+                        facial skin
+                    </h3>
+                    <p class="p-not-image service-card-description">
+                    A healthy lifestyle should 
+                    start from now and also 
+                    for your skin health.
+                    There are some...
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <img class="drip-drop-background-image" src="Assets/Vector.png">
+        <img class="dots-in-services-grid-2" src="Assets/dots.png">
+
+        <footer class="footer-container">
+
+            <div class="footer-left-section">
+                <div class="footer-logo">T</div>
+                <h2 class="h2-title">Trafalgar</h2>
+
+                <p class="footer-description">
+                    Trafalgar provides progressive, 
+                    and affordable healthcare, 
+                    accessible on mobile and online 
+                    for everyone
+                </p>
+
+                <p>©Trafalgar PTY LTD 2020. All rights reserved</p>
+            </div>
+
+            <div class="footer-right-section"> 
+                <div> 
+                    <h3>Company</h3>
+                </div>
+
+                <div> 
+                    <h3>Region</h3>
+                </div>
+                
+                <div> 
+                    <h3>Help</h3>
+                </div>
+
+            </div>
+
+        </footer>
+
+    </section>
+
 
     </section>
 
     <script>
+        // the function below is vibe-coded slop
+        // START OF SLOP
         function toggleStuff() {
             const stuff = document.getElementById("toggle-services-cards");
             const button = document.getElementById("services-toggle-button");
@@ -255,6 +354,8 @@
                 button.textContent = "View Services";
             }
         }
+        // END OF SLOP
+
     </script>
 
 </body>
